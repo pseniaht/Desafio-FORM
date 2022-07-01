@@ -1,6 +1,7 @@
 # Desafio (ADS-104) FORM
 
     Critérios:
+    
 ➝ Construa um formulário HTML que faça a ligação ao arquivo teste.txt
 
 > Deve possuir no mínimo os campos: nome: endereço, email e telefone.✔
@@ -15,10 +16,12 @@ As páginas deverão:
 > Navegar entre si pelo menu javascript. ✔
 
 
+
+
     Participantes:
     
-➝ Paula: https://github.com/pseniaht
+➤ Paula: https://github.com/pseniaht
 
-➝ William: https://github.com/wlmlg
+➤ William: https://github.com/wlmlg
 
 
