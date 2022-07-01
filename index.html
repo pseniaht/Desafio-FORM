@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="header">
+
+            <p class="logo">Desafio ADS-104</p>
+            <ul class="menu">
+                <li class="nav-item"><a href="#" class="itmenu">Página Inicial</a></li>
+                <li class="nav-item"><a href="video.html" class="itmenu">Vídeo</a></li>
+                <li class="nav-item"><a href="imagens.html" class="itmenu">Imagens</a></li>
+            </ul>
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+        </nav>
+    </header>
+
+    <script src="script.js"></script>
+    <h2 style="font-family: Andale Mono, monospace;">Formulário</h2>
+
+
+    <div class="marg">
+        <form action="#">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+
+            <div>
+                <label for="endereco">Endereço:</label>
+                <input type="text" name="endereco" id="endereco">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" value="@gmail.com" pattern=".+@gmail.com" required>
+            </div>
+
+            <div>
+                <label for="num">Numero de telefone:</label>
+                <input type="number" name="num" id="num">
+            </div>
+
+            <div>
+                <label for="msg">Envie seu comentário:</label>
+                <textarea id="msg" style="height: 200px;" required></textarea>
+
+            </div>
+
+            <div class="butf">
+            
+                <div class="but1">
+                    <button class="button" type="reset">Limpar<i class="fa fa-close" style="margin-left: 4px; font-size:12px"></i></button>
+                </div>
+
+                <div class="but2">
+                    <button class="button" type="submit">Enviar<i class="fa fa-caret-right" style="margin-left: 4px; font-size: 12px;"></i></button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player class="gif" src="https://assets7.lottiefiles.com/packages/lf20_ywx1mc8v.json" speed="2" loop
+        autoplay>
+    </lottie-player>
+</body>
+
+</html>
