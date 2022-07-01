@@ -8,7 +8,9 @@ Deve possuir no mínimo os campos: nome: endereço, email e telefone.✔
 As páginas deverão:
 
 1- Possuir imagens ✔
+
 2- Possuir vídeo ✔
+
 3- Navegar entre si pelo menu javascript. ✔
 
 
