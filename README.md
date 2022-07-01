@@ -7,11 +7,11 @@ Deve possuir no mínimo os campos: nome: endereço, email e telefone.✔
 ➤ Construa um pequeno site (mínimo 3 páginas) e coloque um menu java script (código pronto)
 As páginas deverão:
 
-1- Possuir imagens ✔
+> Possuir imagens ✔
 
-2- Possuir vídeo ✔
+> Possuir vídeo ✔
 
-3- Navegar entre si pelo menu javascript. ✔
+> Navegar entre si pelo menu javascript. ✔
 
 
     Participantes:
